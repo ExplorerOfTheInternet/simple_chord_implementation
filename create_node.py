@@ -20,6 +20,6 @@ known_address = (
 )
 
 
-node = Node(address, 8)
+node = Node(address)
 node.join(known_address)
 node.run()
